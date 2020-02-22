@@ -22,13 +22,25 @@ _3. ./檔名_
 > clang輸出的二進位檔
 > ./在當前目錄執行此檔
 
+![](https://i.imgur.com/HDgm8Bc.png)
+
 _4. \n換行符號  _
 _5. ls 可以直接叫出目錄的所有檔案_  
 前面有標記＊為machine code機器代碼;其他為源代碼;aaa/：/代表資料夾
 
 _6. rm 刪除檔案;mkdir 創立目錄;rmdir刪除目錄. _
+![](https://i.imgur.com/H3tIBR8.jpg)
 
-_7. _
+
+
+_7.資料型態 _ 
+
+![](https://i.imgur.com/GWoA29r.png)
+例如在上例中，整數 int 的記憶體空間是 4 個位元組，可以儲存的整數範圍為 -2147483648 至 2147483647，如果儲存值超出這個範圍的話稱之為「溢值」 （Overflow），會造成程式不可預期的結果。
+整數計算範圍的方式很簡單，例如 int 整數佔 4 位元組的話，可儲存範圍為 2^32 / 2，除以 2 是因為要分另一半儲存負整數的關係，整數的最左邊位元被用來表示正負號，如果最左邊位元為 0 表示正號，若為 1 表示負號。
+![](https://i.imgur.com/ugEips9.png)
+
+資料來源：https://programming.im.ncnu.edu.tw/Chapter5.htm
 
 _8. do while 迴圈. _
  do statement while ( expression ) ;  
