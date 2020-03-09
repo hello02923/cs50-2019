@@ -38,7 +38,14 @@ clear
 
 main 函數如果不需要讀取任何來自於命令列的參數. 
 
-argv 
+
+
+argc，讀作arg C。是argument counter的縮寫。即參數計數器。  
+
+argv，讀作arg V。是argument vector的縮寫，這裡vector是數組的意思，即參數組成的數組。
+
+
+原文網址：https://kknews.cc/code/9llx4zl.html
 
 https://blog.gtwang.org/programming/c-cpp-tutorial-argc-argv-read-command-line-arguments/
 
